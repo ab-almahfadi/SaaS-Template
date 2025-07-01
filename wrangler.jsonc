@@ -4,7 +4,7 @@
  */
  {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "account_id": "82e5aa3e06eba55221231ef482269452",
+    "account_id": "0292baff206b0ac246c0f891353de657",
     "name": "cloudflare-workers-nextjs-saas-template",
     "main": ".open-next/worker.js",
     "compatibility_date": "2025-03-01",
@@ -39,9 +39,19 @@
      * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
      */
     "vars": {
-        "EMAIL_FROM": "no-reply@notifications.agenticdev.agency",
-        "EMAIL_FROM_NAME": "AgenticDev.agency",
-        "EMAIL_REPLY_TO": "support@agenticdev.agency"
+        "EMAIL_FROM": "flowxera@gmail.com",
+        "EMAIL_FROM_NAME": "flowxera.com",
+        "EMAIL_REPLY_TO": "flowxera@gmail.com",
+        "EMAIL_HOST": "smtp.gmail.com",
+        "CLOUDFLARE_ACCOUNT_ID": "gdKJivgMFv2GgD_frdbc9wy-3804OP-AzWF44Z5G",
+        "CLOUDFLARE_API_TOKEN": "0292baff206b0ac246c0f891353de657",
+        "NEXT_PUBLIC_TURNSTILE_SITE_KEY":"0x4AAAAAABjB-6VLY4ZT2aIN",
+        "TURNSTILE_SECRET_KEY": "0x4AAAAAABjB--5kFmYBlnM1ltiX08O5rlc",
+        "GOOGLE_CLIENT_ID": "281840638624-ho38j0l70ljcjnbm4ve3mj02sg94136l.apps.googleusercontent.com",
+        "GOOGLE_CLIENT_SECRET": "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",
+        "RESEND_API_KEY": "re_2TmMDrpK_5X4VejpGrE5mKzBT1s9JnS8m",
+        "STRIPE_SECRET_KEY": "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",
+        "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_live_51NpiefFrZ7GYtRzDFr1Xy5hKnufB39PwPjZXk2gGzrNhu1rUzBztKZqJ7YdRuG0j6blsBMD2YWOsK9VL6kOEZBqM00oYUNsKbL"
     },
     /**
      * Note: Use secrets to store sensitive data.
@@ -78,15 +88,15 @@
     "d1_databases": [
         {
             "binding": "NEXT_TAG_CACHE_D1",
-            "database_name": "cloudflare-workers-nextjs-saas",
-            "database_id": "94dd1269-a29c-4621-adff-1762d1af6926",
+            "database_name": "saas-template",
+            "database_id": "29e078f7-d255-4065-a724-0d2b9ea63de1",
             "migrations_dir": "src/db/migrations"
         }
     ],
     "kv_namespaces": [
         {
             "binding": "NEXT_INC_CACHE_KV",
-            "id": "c6f2b077e0a34a84b3598558eb833055"
+            "id": "c328f541686348228b044f8179a640ea"
         }
     ]
   }
