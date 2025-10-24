@@ -38,21 +38,6 @@
      * Environment Variables
      * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
      */
-    "vars": {
-        "EMAIL_FROM": "flowxera@gmail.com",
-        "EMAIL_FROM_NAME": "flowxera.com",
-        "EMAIL_REPLY_TO": "flowxera@gmail.com",
-        "EMAIL_HOST": "smtp.gmail.com",
-        "CLOUDFLARE_ACCOUNT_ID": "gdKJivgMFv2GgD_frdbc9wy-3804OP-AzWF44Z5G",
-        "CLOUDFLARE_API_TOKEN": "0292baff206b0ac246c0f891353de657",
-        "NEXT_PUBLIC_TURNSTILE_SITE_KEY":"0x4AAAAAABjB-6VLY4ZT2aIN",
-        "TURNSTILE_SECRET_KEY": "0x4AAAAAABjB--5kFmYBlnM1ltiX08O5rlc",
-        "GOOGLE_CLIENT_ID": "281840638624-ho38j0l70ljcjnbm4ve3mj02sg94136l.apps.googleusercontent.com",
-        "GOOGLE_CLIENT_SECRET": "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",
-        "RESEND_API_KEY": "re_2TmMDrpK_5X4VejpGrE5mKzBT1s9JnS8m",
-        "STRIPE_SECRET_KEY": "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",
-        "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_live_51NpiefFrZ7GYtRzDFr1Xy5hKnufB39PwPjZXk2gGzrNhu1rUzBztKZqJ7YdRuG0j6blsBMD2YWOsK9VL6kOEZBqM00oYUNsKbL"
-    },
     /**
      * Note: Use secrets to store sensitive data.
      * https://developers.cloudflare.com/workers/configuration/secrets/
